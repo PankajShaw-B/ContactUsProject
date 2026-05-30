@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container{
+    width: 95%;
+    max-width: 1400px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.logout-btn{
+    display: inline-block;
+    background: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.logout-btn:hover{
+    background: #c82333;
+}
+
+.request-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 2px solid #2c3e50;
+}
+
+.request-table th{
+    background: #2c3e50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.request-table td{
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.request-table tr:nth-child(even){
+    background: #f8f9fa;
+}
+
+.request-table tr:hover{
+    background: #e9ecef;
+}
+
+.request-table th:nth-child(1),
+.request-table td:nth-child(1){
+    width: 60px;
+    text-align: center;
+}
+
+.request-table th:nth-child(2),
+.request-table td:nth-child(2){
+    width: 180px;
+}
+
+.request-table th:nth-child(3),
+.request-table td:nth-child(3){
+    width: 250px;
+}
+
+.request-table th:nth-child(5),
+.request-table td:nth-child(5){
+    width: 120px;
+    text-align: center;
+}
+
+
+.archive-btn{
+    background: #ff9800;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: auto; /* Important */
+}
+
+.archive-btn:hover{
+    background: #e68900;
+}
+
+hr{
+    margin: 40px 0;
+}
